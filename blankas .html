@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="./app.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Viktorina</h1>
+    </header>
+    <main>
+      <div id="quiz-container">
+        <div id="question-container">
+          <p id="question"></p>
+          <ul id="choices"></ul>
+        </div>
+      </div>
+      <button id="next-btn"></button>
+      <p id="progress">Klausimas 1 is 10</p>
+      <div id="results-container" class="hidden">
+        <p id="results"></p>
+        <button id="restart-btn">Perkrauti Viktorina</button>
+      </div>
+    </main>
+    <footer>
+        <p>© 2024 Viktorina</p>
+    </footer>
+  </body>
 </html>
